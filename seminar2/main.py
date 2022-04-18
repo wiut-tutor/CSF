@@ -30,3 +30,5 @@ def even_odd(number):
 
 num = int(input("Enter the number: "))
 print(even_odd(num)) #function argument is num, even_odd() function call takes place here
+
+print("new update")
