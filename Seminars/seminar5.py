@@ -1,3 +1,30 @@
+def find(word, letter, index):
+    while index <len(word):
+        if word[index]==letter:
+            return index
+        index =index+1
+    return -1
+
+print(find('banana', 'a', 2))
+
+
+
+
+# Task 5
+
+def test_is_valid(test):
+    if (isinstance(test, int) == True) and (1 <= test <= 3):
+        return True
+    else:
+        return False
+
+
+print(test_is_valid(2))
+print(test_is_valid(3))
+print(test_is_valid(4))
+print(test_is_valid(4.0))
+
+# Task 4
 # def compare (x, y):
 #     if x < y:
 #         return -1
@@ -9,14 +36,6 @@
 # print(compare(1, 4))
 # print(compare(4, 1))
 # print(compare(3, 3))
-
-
-
-
-
-
-
-
 
 
 # def fancy_hello_world():
